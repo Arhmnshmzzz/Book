@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Secular+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+}
+
+body > div.flex {
+  background-color: #e2cc72;
+}
+
+body > div.flex > div > div {
+  background-color: #fffffe;
+}
+
+body > div.flex > div > div h1 {
+  color: #33272a;
+}
+
+body > div.flex > div > div p,
+body > div.flex > div > div label {
+  color: #594a4e;
+}
+
+body > div.flex > div > div form p:last-of-type {
+  font-size: 18px;
+  color: #33272a;
+  font-weight: 500;
+}
+
+body > div.flex > div > div form button {
+  background: #ffc6c7;
+  color: #33272a;
+  font-weight: 500;
+}
+
+body > div.flex > div > div form button:hover {
+  background: #e2cc72;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Secular+One&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Secular One", sans-serif;
+}
+
+body {
+  background-color: #e2cc72;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.grey {
+  color: #474747;
+}
+tr {
+  padding: 0.5rem;
+  border-bottom: 1px solid rgb(57, 57, 57);
+}
+.card {
+  border-radius: 0.4rem;
+  border: 1px solid #474747;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.title {
+  margin-top: 1rem;
+}
+
+.a_book {
+  display: grid;
+  /* align-items: center;
+  justify-content: space-between; */
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.2rem;
+  border-radius: 1rem;
+  background-color: #fefbea;
+}
+
+.a_book img {
+  padding: 2rem;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.yellow {
+  color: #eeba41;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fefbea;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.options_nav {
+  padding: 1rem;
+  color: #6d6d6d;
+  cursor: pointer;
+}
+.options_nav.active {
+  color: #000000;
+  border-bottom: 0.3rem solid #e2cc72;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.cta-btn.ava {
+  padding: 1.4rem;
+}
+
+.cta {
+  padding: 0.6rem;
+  cursor: pointer;
+  color: #6d6d6d;
+}
+
+.cta.active {
+  background-color: #eeba41;
+  border-radius: 0.3rem;
+  color: #000000;
+  margin: 0.1rem;
+}
+.cta.notactive {
+  background-color: #e4e4e4;
+  border-radius: 0.3rem;
+  color: #000000;
+  margin: 0.1rem;
+}
+.margin {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margin.available_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.book_img {
+  /* object-fit: cover; */
+  flex-grow: 1;
+  height: 100%;
+  background-position: center;
+  object-fit: fill;
+  /* background-repeat: no-repeat; */
+}
+.flex {
+  display: flex;
+}
+
+.book_content {
+  position: relative;
+  flex-grow: 2;
+  padding: 1rem;
+  background-color: #fefbea;
+}
+.book {
+  background-color: #ebd7aa;
+  margin-top: 1.5rem !important;
+  display: flex;
+  width: 50vw;
+  margin: auto;
+  align-items: center;
+}
+
+.exchange {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgb(102, 173, 223);
+}
+
+.owner_name {
+  display: flex;
+  align-items: center;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.1rem solid black;
+}
+
+.rating {
+  /* padding: 0.3rem; */
+  padding: 0 0.5rem 0;
+  border-left: 0.1rem solid black;
+  border-right: 0.1rem solid black;
+}
+.book_ratings {
+  padding: 0.5rem;
+}
+
+.details {
+  padding: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+/* modal  */
+.modal-dialog {
+  width: 300px;
+}
+.modal-footer {
+  height: 70px;
+  margin: 0;
+}
+.modal-footer .btn {
+  font-weight: bold;
+}
+.modal-footer .progress {
+  display: none;
+  height: 32px;
+  margin: 0;
+}
+.input-group-addon {
+  color: #fff;
+  background: #3276b1;
+}
+
+@media screen and (max-width: 400px) {
+  body > div.flex > div > div {
+    width: 320px;
+    padding: 1rem 0.25rem;
+  }
+}
